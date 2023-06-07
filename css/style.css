@@ -139,6 +139,7 @@ body {
   background-color: #fff;
   color: #00A0C1;
   border: 1px solid #00A0C1;
+  transition: all 0.3s;
 }
 
 .page__button-first {
@@ -392,6 +393,7 @@ body {
   color: #fff;
   outline: none;
   transition: all 0.3s;
+  cursor: pointer;
 }
 
 .form-btn:hover {
@@ -431,6 +433,7 @@ body {
   margin-top: 100px;
   padding: 50px 40px;
   transition: all 0.3s;
+  cursor: pointer;
 }
 .contact__item-logo {
   font-size: 72px;
@@ -828,6 +831,7 @@ body {
     position: relative;
     width: 35px;
     height: 25px;
+    cursor: pointer;
   }
 
   .header__btn span {
