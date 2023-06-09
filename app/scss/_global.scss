@@ -4,50 +4,38 @@ body {
 }
 
 body {
-<<<<<<< HEAD
     font-size: 14px;
     font-weight: 500;
     line-height: 20px;
     color: $top-color-text;
-    font-family:'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     display: flex;
     flex-direction: column;
-    background: #FAFAFA;
+    background: #fafafa;
     // background-image: url(../images/bg.jpg);
-=======
-    font-size: 18px;
-    color: #000;
-    line-height: 30px;
-    font-family: 'Quicksand', sans-serif;
-    display: flex;
-    flex-direction: column;
->>>>>>> 80877145a0d9d1d686c82bc04e13008702c15cb7
     background-repeat: no-repeat;
     background-position: center center;
 }
-.wrapper{
+.wrapper {
     min-height: 100%;
     display: flex;
     flex-direction: column;
 }
 
-main{
+main {
     flex-grow: 1; // Розтягує контент посередині по вертикалі. Header та footer розкидаються на верх і на низ відповідно.
 }
 
 .container {
-<<<<<<< HEAD
-    max-width: 1066px;  // Змінюється по макету 
-=======
-    max-width: 1460px;  // Змінюється по макету 
->>>>>>> 80877145a0d9d1d686c82bc04e13008702c15cb7
+    max-width: 1066px; // Змінюється по макету
     margin: 0 auto;
-    padding: 0 10px; // Змінюється по макету 
+    padding: 0 10px; // Змінюється по макету
     min-height: 100%;
     position: relative;
 }
 
-.header{  // Header прилипає до верху
+.header {
+    // Header прилипає до верху
     position: fixed;
     width: 100%;
     top: 0;
@@ -57,7 +45,7 @@ main{
 }
 
 .footer {
-    min-width: 100%; 
+    min-width: 100%;
 }
 
 ::placeholder {
